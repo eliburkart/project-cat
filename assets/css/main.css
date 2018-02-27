@@ -1,0 +1,154 @@
+body {
+  margin: 0;
+}
+.splash {
+  text-align: center;
+
+}
+h1 {
+  font-family: 'PT Sans Narrow Bold', sans-serif;
+  font-size:  1.875em;
+  color: #323232;
+}
+
+h2  {
+    font-family: 'PT Sans Narrow Bold', sans-serif;
+    font-size: 1.5em ;
+    color: #00897f;
+    text-transform: uppercase;
+}
+h3  {
+    font-family: "PT Serif Regular";
+    font-size: 1em;
+    line-height:  2em;
+    color: #323232;
+}
+p {
+  font-family: 'PT Serif', serif;
+  font-size: .875em;
+  line-height: 1.75em;
+  color: #323232;
+}
+.menu-row {
+  width: 95%;
+  max-width: 1230px;
+}
+.menu-align
+{
+  display: inline-block;
+
+}
+#menu-1 {
+  padding-left: 30%;
+}
+
+#menu-2  {
+    padding-left: 30%;
+}
+#menu-3  {
+    padding-left: 2%;
+}
+
+.row {
+    text-align: center;
+    margin-top: 80px;
+}
+.single-row {
+  margin: 80px 150px;
+  padding: 0 15%;
+  max-width: 60%;
+}
+.single-title {
+  text-align: center;
+}
+.single-description {
+  text-align: justify;
+}
+
+.box {
+  width: 350px;
+  margin: 0 60px;
+  padding: 30px;
+  background-color: #eeeeee;
+  display: inline-block;
+
+}
+.box-title {
+  text-align: center;
+  margin-bottom: 25px;
+}
+.image-box {
+  text-align: center;
+  margin: 80px 0;
+
+}
+
+a {
+    font-family: 'PT Serif Bold', serif;
+    font-size: 1em;
+    color: #f26522;
+}
+nav h1 {
+  font-family: "PT Sans Narrow Bold", sans-serif;
+  font-size: 1.5em;
+  color: #323232;
+}
+
+nav p {
+    font-family: 'PT Sans', sans-serif;
+    font-size:.9em;
+    color: #323232;
+}
+
+footer {
+  font-family: 'PT Sans Narrow Bold', sans-serif;
+  font-size: 1.25em;
+  background-color: #00897f;
+  padding: 125px 0;
+  width: 1230px;
+  text-align: center;
+  display: inline-block;
+}
+.footer-1 {
+  text-align: center;
+}
+footer h1 {
+    color: #eeeeee;
+}
+.X {
+  border-radius: 75%;
+  padding: 0 55px;
+}
+
+.contact-title {
+  text-align: center;
+}
+
+.contact-container {
+  width: 400px;
+  margin: 0 80px;
+  padding: 30px;
+  background-color: #eeeeee;
+  display: inline-block;
+}
+.contact-1 {
+  text-align: center;
+  background-color: #ffffff;
+}
+.contact-2 {
+  text-align: center;
+  background-color: #ffffff
+
+}
+.map {
+    text-align: center;
+}
+
+
+/* On devices wider than 660px */
+@media(min-width: 660px) {
+}
+
+/* On devices wider than 940px */
+@media(min-width: 940px) {
+}
