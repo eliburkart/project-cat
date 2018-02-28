@@ -3,14 +3,12 @@ body {
 }
 .splash {
   text-align: center;
-
 }
 h1 {
   font-family: 'PT Sans Narrow Bold', sans-serif;
   font-size:  1.875em;
   color: #323232;
 }
-
 h2  {
     font-family: 'PT Sans Narrow Bold', sans-serif;
     font-size: 1.5em ;
@@ -28,9 +26,9 @@ p {
   font-size: .875em;
   line-height: 1.75em;
   color: #323232;
-
 }
-ul {
+/* horizontal menu */
+nav ul {
   list-style-type: none;
 }
 header {
@@ -38,24 +36,28 @@ header {
   padding-top: .5%;
   padding-bottom: .5%;
 }
-ul#menu li {
+nav li {
   display: inline-block;
-  padding-lef: 20%;
+  padding-left: 10%;
   text-decoration: none;
 }
-.items {
-  padding-left: 70%;
+.XX {
+  padding-left: 15%;
+  display: inline;
+
 }
+.XXX {
+  display: inline;
 
-
+}
+/* end menu */
 .row {
     text-align: center;
     margin-top: 80px;
 }
-
 .single-row {
   margin: 80px 150px;
-  padding: 0 15%;
+  padding: 0 20%;
   max-width: 60%;
 }
 .single-title {
@@ -64,14 +66,12 @@ ul#menu li {
 .single-description {
   text-align: justify;
 }
-
 .box {
   width: 350px;
   margin: 0 60px;
   padding: 30px;
   background-color: #eeeeee;
   display: inline-block;
-
 }
 .box-title {
   text-align: center;
@@ -80,7 +80,6 @@ ul#menu li {
 .image-box {
   text-align: center;
   margin: 80px 0;
-
 }
 a:link {
   text-decoration: none;
@@ -101,13 +100,36 @@ nav h1 {
   color: #323232;
   text-align: right;
 }
-
 nav p {
     font-family: 'PT Sans', sans-serif;
     font-size:.9em;
     color: #323232;
 }
-
+.X {
+  border-radius: 75%;
+  padding: 0 55px;
+}
+.contact-container {
+  width: 400px;
+  margin: 0 80px;
+  padding: 30px;
+  background-color: #eeeeee;
+  display: inline-block;
+}
+.contact-title {
+  text-align: center;
+}
+.contact-1 {
+  text-align: center;
+  background-color: #ffffff;
+}
+.contact-2 {
+  text-align: center;
+  background-color: #ffffff
+}
+.map {
+    text-align: center;
+}
 footer {
   font-family: 'PT Sans Narrow Bold', sans-serif;
   font-size: 1.25em;
@@ -122,34 +144,6 @@ footer {
 }
 footer h1 {
     color: #eeeeee;
-}
-.X {
-  border-radius: 75%;
-  padding: 0 55px;
-}
-
-.contact-title {
-  text-align: center;
-}
-
-.contact-container {
-  width: 400px;
-  margin: 0 80px;
-  padding: 30px;
-  background-color: #eeeeee;
-  display: inline-block;
-}
-.contact-1 {
-  text-align: center;
-  background-color: #ffffff;
-}
-.contact-2 {
-  text-align: center;
-  background-color: #ffffff
-
-}
-.map {
-    text-align: center;
 }
 /* On devices wider than 660px */
 @media(min-width: 660px) {
