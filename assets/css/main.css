@@ -42,13 +42,12 @@ nav li {
   text-decoration: none;
 }
 .XX {
-  padding-left: 15%;
   display: inline;
-
+  text-align: left;
 }
 .XXX {
   display: inline;
-
+  padding-left: 500px;
 }
 /* end menu */
 .row {
@@ -56,15 +55,16 @@ nav li {
     margin-top: 80px;
 }
 .single-row {
-  margin: 80px 150px;
-  padding: 0 20%;
+  margin: 80px 60px;
+  padding: 0 15%;
   max-width: 60%;
 }
 .single-title {
   text-align: center;
 }
-.single-description {
-  text-align: justify;
+
+.box-description {
+  text-align: left;
 }
 .box {
   width: 350px;
@@ -109,23 +109,39 @@ nav p {
   border-radius: 75%;
   padding: 0 55px;
 }
+.row-container {
+    text-align: center;
+
+}
 .contact-container {
-  width: 400px;
+  width: 1170px;
   margin: 0 80px;
-  padding: 30px;
+  padding: 30 30 80 30;
   background-color: #eeeeee;
   display: inline-block;
 }
 .contact-title {
   text-align: center;
+  margin-bottom: 45px;
 }
 .contact-1 {
-  text-align: center;
+  text-align: justify;
   background-color: #ffffff;
+  display: inline-block;
+  margin-right: 30px;
+  padding: 30px;
+  text-transform: uppercase;
 }
 .contact-2 {
-  text-align: center;
-  background-color: #ffffff
+  text-align: justify;
+  background-color: #ffffff;
+  margin-left: 30px;
+  display: inline-block;
+  padding: 30px;
+  text-transform: uppercase;
+}
+#justified {
+  text-align: right;
 }
 .map {
     text-align: center;
@@ -134,15 +150,16 @@ footer {
   font-family: 'PT Sans Narrow Bold', sans-serif;
   font-size: 1.25em;
   background-color: #00897f;
-  padding: 125px 0;
   width: 1230px;
-  text-align: center;
+  vertical-align: center;
   display: inline-block;
 }
 .footer-1 {
   text-align: center;
 }
 footer h1 {
+    font-family: 'PT Sans Narrow Bold', sans-serif;
+    font-size: 1.25em;
     color: #eeeeee;
 }
 /* On devices wider than 660px */
