@@ -16,25 +16,23 @@ h2  {
     text-transform: uppercase;
 }
 h3  {
-    font-family: "PT Serif Regular";
+    font-family: 'PT Serif', serif;
     font-size: 1em;
     line-height:  2em;
     color: #323232;
 }
-p {
+/* p {
   font-family: 'PT Serif', serif;
   font-size: .875em;
   line-height: 1.75em;
   color: #323232;
-}
+} */
 /* horizontal menu */
 nav ul {
   list-style-type: none;
 }
 header {
   vertical-align: center;
-  padding-top: .5%;
-  padding-bottom: .5%;
 }
 nav li {
   display: inline-block;
@@ -111,7 +109,6 @@ nav p {
 }
 .row-container {
     text-align: center;
-
 }
 .contact-container {
   width: 1170px;
@@ -125,7 +122,7 @@ nav p {
   margin-bottom: 45px;
 }
 .contact-1 {
-  text-align: justify;
+  text-align: left;
   background-color: #ffffff;
   display: inline-block;
   margin-right: 30px;
@@ -133,15 +130,15 @@ nav p {
   text-transform: uppercase;
 }
 .contact-2 {
-  text-align: justify;
+  text-align: left;
   background-color: #ffffff;
   margin-left: 30px;
   display: inline-block;
   padding: 30px;
   text-transform: uppercase;
 }
-#justified {
-  text-align: right;
+#XXXX {
+  padding-left: 5em;
 }
 .map {
     text-align: center;
